@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica HTML y Javascript</title>
+</head>
+<body>
+    <h1>Práctica de HTML con Javascript</h1>
+    <p>Interactúa con los elementos de la página utilizando Javascript</p>
+
+    <!--Botón-->
+    <button onclick="mostrarMensaje()">Haz clic aquí</button>
+
+    <p id="mensaje"></p> <!--Elemento para mostrar el mensaje-->
+
+    <script>
+
+        // Función para mostrar el mensaje
+
+        function mostrarMensaje() {
+
+            document.getElementById("mensaje").innerHTML = "¡Hola! has hecho clik en el botón.";
+        }
+    </script>
+</body>
+</html>
